@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="prototipo.css">
+</head>
+<body>
+
+<h1>Consulta de contratos</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">CNPJ</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Informe o CPNJ da empresa que deseja achar:">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Número do contrato</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Informe o número do contrato:">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">CPF do representante</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Informe o número do CPF do representante:">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="button" value="Consultar">
+    <a href="conPessoaFiltro.html" ><input type="button" value="Limpar"></a>
+    <a href="engenharia.html" ><input type="button" value="Novo"></a>
+  </div>
+  </form>
+</div>
+
+<table id="customers">
+  <tr>
+    <th>CNPJ</th>
+    <th>Número do contrato</th>
+    <th>CPF do representante</th>
+    <th>Editar</th>
+    <th>Apagar</th>
+    
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td><div class="row">
+    <a href="altPessoa.html" ><input type="button" value="Editar"></a>
+  </div></td>
+    <td><div class="row">
+    <input type="button" onclick="alert('Registro epagado com sucesso!')" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+    <td><div class="row">
+    <input type="button" value="Editar">
+  </div></td>
+    <td><div class="row">
+    <input type="button" value="Apagar">
+  </div></td>
+  </tr>
+</table>
+
+</body>
+</html>
