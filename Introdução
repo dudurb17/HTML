@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha primeira PAgina</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Programação Estruturada I</h1>
+	<h2>Professor:Cleio Marcis Ferreira</h2>
+	<h3>Aluno: XYZ</h3>
+	<h4>Modulo: 4</h4>
+	<h5>IFSC- Instituto Federal de Santa Catarina</h5>
+	<h6>Campus Chapeco</h6>
+
+	<h1>Inserindo marcações</h1>
+	<h2>Curso Técnico em Informática <br> 
+
+	</h2>
+
+		<p>Introduzir a <strong> programação estruturada </strong> através de <s>estudos</s> das várias <em> linguagens de programação</em>.<br> <small> Conforme descrito no PPC do curso.</small><p>Foco: <b>Desenvolvimento de sistemas</b> estruturados, <u>Orientados a Objeto</u> e web. </p>
+	<br> : Quebra linha;
+	<p> .: paragrafo; </p>
+	<b> (bold): Negrito</b><br>
+	<i> (Italic): Itálico;</i><br>
+	<tt>Fonte de maquina de escrever; \</tt><br>
+	<u> (underline): sublinhado;</u><br>
+	<s> (strikethrough): riscado; </s>
+	<hr>
+	<h2>Conteúdos</h2>
+	<u1>
+		<li>Conceitos</li>
+		<dl>
+			<dt>HTML
+				<dd>Hypertext Markup language</dd>
+				<dd><a href="#Eduardo">Autor</a></dd>
+				<dd>Autor</dd>
+			</dt>
+			<dt>XML
+				<dd>Extensible Markup Language</dd>
+				<dd>Exemplos</dd>
+			</dt>
+			<li>Exercícios</li>
+			<li>Bibliografia</li>
+		
+		</ui>
+		<h2>Disciplinas</h2>
+		<ol>
+			<li> Programação EstruturadaI</li>
+			<li> Programação Orientada a Objetos</li>
+			<li> Oficina de Integração</li>
+		</ol>
+		<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>
+		<br>
+		<a name="Eduardo"> Eduardo </a>
+</body>
+</html>
