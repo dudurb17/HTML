@@ -1,0 +1,67 @@
+#area{
+    position:relative ;
+    top: 50%;
+    width: 500px;
+    height: 400px;
+    
+}
+#formulario #area{
+    position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:420px;
+  height: 290px;
+}
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#nome{
+    position:absolute;
+    left:170px;
+    top:90px;
+    width:222px;
+}
+#nascimento{
+    position:absolute;
+    left:170px;
+    top:125px;
+    width:225px;
+}
+#mail{
+  position:absolute;
+  left:170px;
+  top:145px;
+  width:222px;
+}
+#telefone{
+  position:absolute;
+  left:170px;
+  top:165px;
+  width:222px;
+}
+#serie{
+  position:absolute;
+  left:170px;
+  top:200px;
+  width:230px;
+}
+#radio{
+  position:absolute;
+  left:165px;
+  top:220px;
+  width:230px;
+}
+#botao{
+  position: relative;
+  left: 165px;
+  border-radius: 12px;
+  
+}
+#sucesso{
+ text-align: center;
+ color: red;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ex:1</title>
+  </head>
+  <body>
+    <div id="area">
+      <fieldset>
+        <legend><h1>Matricula do aluno</h1></legend>
+        <form id="formulario" action="sucesso.html">
+          Informe o seu nome:
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Ex:Eduardo Robetti Bedin"
+            maxlength="50"
+            required
+          />
+          <br />
+          Informe a sua data de<br />
+          nascimento:
+          <input type="date" name="nascimento" id="nascimento" required />
+          <br />
+          Informe o seu e-mail:<input
+            type="email"
+            name="mail"
+            id="mail"
+            required
+          />
+          <br />Informe o seu telefone:
+          <input
+            type="tel"
+            id="telefone"
+            placeholder="Ex:055 49 991767992"
+            pattern="^\d{3} \d{2} \d{9}$"
+            required
+          />
+          <br />
+          Informe o ano do seu <br />Ensino Médio:
+          <select id="serie" required>
+            <option value="" disabled selected>Selecione...</option>
+            <optgroup label="Série">
+              <option value="Primeira">1º</option>
+              <option value="Segunda">2º</option>
+              <option value="terceira">3º</option>
+              <option value="quarta">4º</option>
+            </optgroup>
+          </select>
+          <br />
+          Informe o turno:
+          <div id="radio">
+            <input type="radio" id="manha" name="teste" required />
+            <label>Manhâ</label>
+            <input type="radio" id="tarde" name="teste" required />
+            <label>Tarde</label>
+            <input type="radio" id="noite" name="teste" required />
+            <label>Noite</label>
+          </div>
+          <br />
+          Selecione as atividades extra-curriculares:
+          <br />
+          <input type="checkbox" name="hobby" id="teatro" />
+          <label for="teatro">Teatro</label>
+          <input type="checkbox" name="hobby" id="música" />
+          <label for="música">música</label>
+          <input type="checkbox" name="hobby" id="ballet" />
+          <label for="ballet">Ballet</label>
+          <input type="checkbox" name="hobby" id="pintura" />
+          <label for="pintura">Pintura</label>
+          <input type="checkbox" name="hobby" id="judô" />
+          <label for="judô">Judô</label>
+          <input type="checkbox" name="hobby" id="futebol" />
+          <label for="futebol">Futebol</label>
+          <button type="submit" id="botao">Enviar</button>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
