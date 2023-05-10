@@ -1,0 +1,39 @@
+h2{
+position: relative;
+font-family: Calibri;
+left: 10%;
+}
+
+#table{
+    width: 500px;
+    table-layout: fixed;
+    font: 12px, Arial;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+#nome{
+    position:relative;
+    
+    width:99%;
+}
+#button{
+    position: relative;
+    left: 40%;
+}
+#endereco{
+    position:relative;
+    width:99%;
+}
+#rg{
+    position:relative;
+    width:95%;
+
+}
+#cpf{
+    position:relative;
+    width:97%;
+}
+#data{
+    position:relative;
+    width:99%;
+}
