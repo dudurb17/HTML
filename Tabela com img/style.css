@@ -1,0 +1,9 @@
+table{
+    width: 100%;
+}
+#foto{
+    position: relative;
+    width: 100px;
+    left: 50%;
+
+}
